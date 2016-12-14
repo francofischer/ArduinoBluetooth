@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.santiago.menu.envtexto">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:id="@+id/btn_EnviarMensaje"
+            android:layout_below="@+id/txt_Mensaje"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="58dp"
+            android:layout_marginEnd="58dp" />
+
+        <TextView
+            android:text="Mensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/txt_Mensaje"
+            android:layout_alignStart="@+id/txt_Mensaje"
+            android:layout_marginTop="32dp"
+            android:id="@+id/textView10" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Ingrese texto"
+            android:ems="10"
+            android:layout_marginTop="11dp"
+            android:id="@+id/txt_Mensaje"
+            android:layout_marginLeft="39dp"
+            android:layout_marginStart="39dp"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Contraste LCD:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_Contraste"
+            android:layout_below="@+id/btn_EnviarMensaje"
+            android:layout_alignLeft="@+id/txt_Mensaje"
+            android:layout_alignStart="@+id/txt_Mensaje"
+            android:layout_marginTop="24dp"
+            android:textColor="?attr/editTextColor" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sb_Contraste"
+            android:layout_below="@+id/txt_Contraste"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:max="100"
+            android:progress="55" />
+    </RelativeLayout>
+
+</FrameLayout>

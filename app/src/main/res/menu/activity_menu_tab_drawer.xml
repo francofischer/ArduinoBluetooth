@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Communicacion">
+        <menu>
+            <item
+                android:id="@+id/nav_envdigital"
+                android:icon="@mipmap/ledicon"
+                android:title="Enviar Digital" />
+            <item
+                android:id="@+id/nav_envanalogico"
+                android:icon="@mipmap/sinicon"
+                android:title="Enviar Analógico" />
+            <item
+                android:id="@+id/nav_servo"
+                android:icon="@mipmap/servoicon"
+                android:title="Control de Servo" />
+            <item
+                android:id="@+id/nav_envtexto"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar Texto" />
+            <item
+                android:id="@+id/nav_leerdigital"
+                android:icon="@mipmap/ledicon"
+                android:title="Leer Digital" />
+            <item
+                android:id="@+id/nav_leeranalogico"
+                android:icon="@mipmap/sinicon"
+                android:title="Leer Analógico" />
+        </menu>
+    </item>
+    <item android:title="Otros">
+        <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_config"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Configuración" />
+            <item
+                android:id="@+id/nav_Acercade"
+                android:icon="@mipmap/acercade"
+                android:title="Acerca de" />
+        </group>
+        </menu>
+    </item>
+
+
+</menu>

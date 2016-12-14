@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".envdigital">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Control de LED"
+            android:layout_width="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:id="@+id/textView14" />
+
+        <Button
+            android:text="LED 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_led1"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView14"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="LED 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_led2"
+            android:layout_below="@+id/btn_led1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="LED 3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_led3"
+            android:layout_below="@+id/btn_led2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="LED 4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_led4"
+            android:layout_below="@+id/btn_led3"
+            android:layout_alignLeft="@+id/btn_led3"
+            android:layout_alignStart="@+id/btn_led3"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</FrameLayout>
